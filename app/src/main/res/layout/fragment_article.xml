@@ -16,7 +16,8 @@
         android:layout_marginHorizontal="12dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:tint="@color/black" />
+        app:tint="@color/black"
+        android:contentDescription="@string/back_button" />
 
     <TextView
         android:id="@+id/tvArticleTitle"

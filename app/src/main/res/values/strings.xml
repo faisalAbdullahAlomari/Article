@@ -24,5 +24,6 @@
     <string name="add_article">Add Article</string>
     <string name="add_article_button">Add Article Button</string>
     <string name="share_article_button">Share Article Button</string>
+    <string name="back_button">Back Button</string>
 
 </resources>
