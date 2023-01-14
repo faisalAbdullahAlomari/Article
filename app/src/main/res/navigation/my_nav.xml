@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.article.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.article.RegisterFragment"
+        android:label="RegisterFragment" />
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.article.Home"
+        android:label="Home" >
+        <action
+            android:id="@+id/action_home2_to_article"
+            app:destination="@id/article" />
+        <action
+            android:id="@+id/action_home2_to_write"
+            app:destination="@id/write" />
+    </fragment>
+    <fragment
+        android:id="@+id/write"
+        android:name="com.example.article.Write"
+        android:label="fragment_write"
+        tools:layout="@layout/fragment_write" >
+        <action
+            android:id="@+id/action_write_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/article"
+        android:name="com.example.article.Article"
+        android:label="fragment_article"
+        tools:layout="@layout/fragment_article" >
+        <action
+            android:id="@+id/action_article_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+</navigation>

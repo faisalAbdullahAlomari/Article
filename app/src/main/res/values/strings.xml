@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Article</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="hello">Hello</string>
+    <string name="comment">Comment…</string>
+    <string name="share">Share</string>
+    <string name="comments_here">Comments here</string>
+    <string name="share_button">Share button</string>
+    <string name="title">Article Title</string>
+    <string name="write_your_article">Write Your Article Here</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="log_out">Log out</string>
+    <string name="open" />
+    <string name="close" />
+    <string name="article">Article</string>
+    <string name="add_article">Add Article</string>
+    <string name="add_article_button">Add Article Button</string>
+    <string name="share_article_button">Share Article Button</string>
+
+</resources>
